@@ -16,7 +16,7 @@ namespace Thompson_Lab1A
             Console.Write("Please enter a frequency: ");
             frequency = Int32.Parse(Console.ReadLine());
 
-            Console.WriteLine("Please enter a duration (ms): ");
+            Console.Write("Please enter a duration (ms): ");
             duration = Int32.Parse(Console.ReadLine());
 
             Console.Beep(frequency, duration); //creates a computer beep using inputted frquency and duration
