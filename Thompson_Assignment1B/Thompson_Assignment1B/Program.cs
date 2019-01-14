@@ -20,6 +20,7 @@ namespace Thompson_Assignment1B
             {
                 Console.Write("First Name: ");
                 
+
                 Console.Write("Continue inputting students? y/n ");
                 run = Console.ReadLine();
             } while (run == "y");
