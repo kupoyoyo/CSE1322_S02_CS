@@ -9,7 +9,8 @@ namespace Thompson_Testing_Area
     public class TestingProgram
     {
         public static void Main(string[] args)
-        {
+        { 
+            /*
             string hello = "Hello class\nWelcome to CSE1322!";
             Console.WriteLine(hello);
 
@@ -31,10 +32,13 @@ namespace Thompson_Testing_Area
             Console.WriteLine(d);
             Console.WriteLine(f);
 
+            Console.WriteLine("Is d == f? " + (d == f)); //An equivalency test returning a boolean value
+
             bool bl = true;
             Console.WriteLine(!bl);
-
-
+            */
+            
+            
         }
     }
 }
