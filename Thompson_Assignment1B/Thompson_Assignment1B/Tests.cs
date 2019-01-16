@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using System.Globalization;
 namespace Thompson_Assignment1B
 {
     class Tests
@@ -50,7 +50,7 @@ namespace Thompson_Assignment1B
         {
             FirstName = "Steve";
             LastName = "Stevenson";
-            Test = (0f, 0f, 0f, 0f, 0f);
+            Test = new float[] { 0f, 0f, 0f, 0f, 0f};
         }
 
         public float ComputeAverage()
@@ -93,7 +93,15 @@ namespace Thompson_Assignment1B
 
         public override string ToString()
         {
-            return FirstName + " " + LastName + " " + Test[0] + " " + Test[1] + " " + Test[2] + " " + Test[3] + " " + Test[4] + " " + TestAvg + " " + Grade;
+            return FirstName + 
+                "\t\t" + LastName + 
+                "\t\t" + Test[0].ToString("F", CultureInfo.InvariantCulture) +
+                "\t" + Test[1].ToString("F", CultureInfo.InvariantCulture) + 
+                "\t" + Test[2].ToString("F", CultureInfo.InvariantCulture) + 
+                "\t" + Test[3].ToString("F", CultureInfo.InvariantCulture) + 
+                "\t" + Test[4].ToString("F", CultureInfo.InvariantCulture) + 
+                "\t" + TestAvg.ToString("F", CultureInfo.InvariantCulture) + 
+                "\t" + Grade;
         }
     }
 }
