@@ -38,6 +38,7 @@ namespace Thompson_Testing_Area
             Console.WriteLine(!bl);
             */
 
+            /*
             int number = 5;
             int count = 0;
             bool flag = false;
@@ -55,6 +56,7 @@ namespace Thompson_Testing_Area
                 Console.WriteLine("My number " + number + " is found " + count + " time(s)");
             else
                 Console.WriteLine("My number " + number + " is NOT found");
+            */
         }
     }
 }
