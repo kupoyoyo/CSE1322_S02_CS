@@ -38,12 +38,23 @@ namespace Thompson_Testing_Area
             Console.WriteLine(!bl);
             */
 
-            int x = 5;
-            while (x < 10)
+            int number = 5;
+            int count = 0;
+            bool flag = false;
+            int[,] grid = new int[,] { { 5, 7, 4, 7 }, { 5, 7, 7, 7 }, { 3, 1, 9, 0 } };
+            for (int i = 0; i < grid.GetLength(0); i++)
             {
-                x *= -2;
-                Console.WriteLine(x);
+                for (int j = 0; j < grid.GetLength(1); j++)
+                    if (grid[i,j] == number)
+                    {
+                        flag = true;
+                        count += 1;
+                    }
             }
+            if (flag == true)
+                Console.WriteLine("My number " + number + " is found " + count + " time(s)");
+            else
+                Console.WriteLine("My number " + number + " is NOT found");
         }
     }
 }
