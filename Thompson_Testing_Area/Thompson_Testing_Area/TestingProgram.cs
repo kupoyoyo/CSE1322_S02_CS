@@ -9,7 +9,7 @@ namespace Thompson_Testing_Area
     public class TestingProgram
     {
         public static void Main(string[] args)
-        { 
+        {
             /*
             string hello = "Hello class\nWelcome to CSE1322!";
             Console.WriteLine(hello);
@@ -37,8 +37,13 @@ namespace Thompson_Testing_Area
             bool bl = true;
             Console.WriteLine(!bl);
             */
-            
-            
+
+            int x = 5;
+            while (x < 10)
+            {
+                x *= -2;
+                Console.WriteLine(x);
+            }
         }
     }
 }
