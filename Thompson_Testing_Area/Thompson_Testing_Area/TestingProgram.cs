@@ -58,7 +58,7 @@ namespace Thompson_Testing_Area
                 Console.WriteLine("My number " + number + " is NOT found");
             */
 
-
+            /*
             TestClass v1 = new TestClass(); //Creates a new instance of the class testClass
             TestClass v2 = new TestClass();
             TestClass v3 = new TestClass();
@@ -71,7 +71,9 @@ namespace Thompson_Testing_Area
             v2.Color = "White";
 
             Console.WriteLine("v1.door = " + v1.Doors);
-            
+            */
+
+
             
         }
     }

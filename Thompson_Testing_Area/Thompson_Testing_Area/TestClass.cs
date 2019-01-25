@@ -8,8 +8,10 @@ namespace Thompson_Testing_Area
 {
     class TestClass
     {
+        static int vehicleCount = 0; //Static makes it so that only ONE instance of this variable is created
         private int doors, speed;
         private string color;
+
 
         public int Doors
         {
@@ -40,6 +42,8 @@ namespace Thompson_Testing_Area
             Speed = 120;
             Color = "black";
             Console.WriteLine("The default class has been created");
+            vehicleCount++;
+            Console.WriteLine(vehicleCount + " vehicle(s) created");
         }
 
         public override string ToString()
