@@ -39,9 +39,8 @@ namespace Thompson_Testing_Area
             Doors = 4;
             Speed = 120;
             Color = "black";
-            Console.WriteLine("This class has been created");
+            Console.WriteLine("The default class has been created");
         }
-
 
         public override string ToString()
         {
