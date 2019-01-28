@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FC049BCC-81B5-49E8-9060-E7453AC32912}</ProjectGuid>
+    <ProjectGuid>{92547306-A5C4-4BEE-BFD9-23DAED044EA9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Thompson_Testing_Area</RootNamespace>
-    <AssemblyName>Thompson_Testing_Area</AssemblyName>
+    <RootNamespace>Testing_Program2</RootNamespace>
+    <AssemblyName>Testing_Program2</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,12 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Car.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TestChild.cs" />
-    <Compile Include="TestClass.cs" />
-    <Compile Include="TestingProgram.cs" />
-    <Compile Include="TestParent.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

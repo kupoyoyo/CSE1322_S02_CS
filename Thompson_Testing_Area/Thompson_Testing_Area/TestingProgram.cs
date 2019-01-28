@@ -8,6 +8,12 @@ namespace Thompson_Testing_Area
 {
     public class TestingProgram
     {
+        public static void Test()
+        {
+            Console.WriteLine("The Test() was called...");
+            TestClass.run();
+        }
+
         public static void Main(string[] args)
         {
             /*
@@ -58,7 +64,7 @@ namespace Thompson_Testing_Area
                 Console.WriteLine("My number " + number + " is NOT found");
             */
 
-            /*
+            
             TestClass v1 = new TestClass(); //Creates a new instance of the class testClass
             TestClass v2 = new TestClass();
             TestClass v3 = new TestClass();
@@ -70,8 +76,11 @@ namespace Thompson_Testing_Area
             v1.Color = "Red";
             v2.Color = "White";
 
+            TestClass.run();
+            TestingProgram.Test();
+
             Console.WriteLine("v1.door = " + v1.Doors);
-            */
+            
 
 
             
