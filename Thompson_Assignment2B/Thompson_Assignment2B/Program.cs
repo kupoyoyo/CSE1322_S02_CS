@@ -23,9 +23,9 @@ namespace Thompson_Assignment2B
             double prce = double.Parse(Console.ReadLine());
 
             AllInclusiveVacation av1 = new AllInclusiveVacation(bdgt, dest, brnd, rting, prce);
-            Console.WriteLine("Budget remaining after price of vacation: $" + av1.BudgetCheck());
+            Console.WriteLine("\nBudget: $" + bdgt + "\nDestination: " + dest + "\nBrand: " + brnd + "\nRating: " + rting + "\nPrice: $" + prce + "\nCompare Budget: $" + av1.BudgetCheck());
 
-            Console.Write("Piecemeal Vacation\nInput a budget: $");
+            Console.Write("\nPiecemeal Vacation\nInput a budget: $");
             double bdgt1 = double.Parse(Console.ReadLine());
             Console.Write("Input a destination: ");
             string dest1 = Console.ReadLine();
@@ -43,7 +43,11 @@ namespace Thompson_Assignment2B
             }
 
             PiecemealVacation pv1 = new PiecemealVacation(bdgt1, dest1, item, cost);
-            Console.WriteLine("Budget remaining after price of vacation: $" + pv1.BudgetCheck());
+            Console.WriteLine("\nBudget: $" + bdgt1 + "\nDestination: " + dest1);
+            var itemsAndCost = item.Zip(cost, (first, second) => first + ": $" + second); //combines each element of the two lists to display as a string like "Hotel: $500"
+            foreach (var i in itemsAndCost)
+                Console.WriteLine(i);
+            Console.WriteLine("Compare Budget: $" + pv1.BudgetCheck());
         }
     }
 }
