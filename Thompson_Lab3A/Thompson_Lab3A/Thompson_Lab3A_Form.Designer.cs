@@ -34,6 +34,7 @@
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -48,7 +49,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(314, 69);
+            this.button2.Location = new System.Drawing.Point(233, 69);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(132, 62);
             this.button2.TabIndex = 1;
@@ -58,7 +59,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(571, 69);
+            this.button3.Location = new System.Drawing.Point(399, 69);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(131, 62);
             this.button3.TabIndex = 2;
@@ -68,7 +69,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(70, 272);
+            this.button4.Location = new System.Drawing.Point(70, 164);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(121, 63);
             this.button4.TabIndex = 3;
@@ -78,7 +79,7 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(314, 272);
+            this.button5.Location = new System.Drawing.Point(233, 164);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(132, 63);
             this.button5.TabIndex = 4;
@@ -88,7 +89,7 @@
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(571, 272);
+            this.button6.Location = new System.Drawing.Point(399, 164);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(131, 63);
             this.button6.TabIndex = 5;
@@ -96,11 +97,22 @@
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(64, 25);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "label1";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
             // Thompson_Lab3A_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(808, 431);
+            this.ClientSize = new System.Drawing.Size(601, 300);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
@@ -108,9 +120,10 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Name = "Thompson_Lab3A_Form";
-            this.Text = "Thompson_Lan3A_Form";
+            this.Text = "Thompson_Lab3A_Form";
             this.Load += new System.EventHandler(this.Thompson_Lab3A_Form_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -122,6 +135,7 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Label label1;
     }
 }
 
