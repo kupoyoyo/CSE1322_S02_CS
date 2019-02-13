@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Thompson_Module3B
+namespace Thompson_Assignment3B
 {
     static class Program
     {
