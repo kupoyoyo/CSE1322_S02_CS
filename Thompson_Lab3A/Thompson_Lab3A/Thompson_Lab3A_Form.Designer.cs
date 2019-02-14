@@ -105,7 +105,6 @@
             this.label1.Size = new System.Drawing.Size(64, 25);
             this.label1.TabIndex = 6;
             this.label1.Text = "label1";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // Thompson_Lab3A_Form
             // 
