@@ -10,7 +10,8 @@ namespace Testing_Program2
     {
         static void Main(string[] args)
         {
-            
+            string myString = "Hello, World!";
+            Console.WriteLine(myString.Length);
         }
     }
 }

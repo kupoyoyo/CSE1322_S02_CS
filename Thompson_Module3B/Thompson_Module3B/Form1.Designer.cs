@@ -283,7 +283,7 @@
             this.Controls.Add(this.num8);
             this.Controls.Add(this.num7);
             this.Name = "Form1";
-            this.Text = "Thompson_Assignment3B";
+            this.Text = " ";
             this.ResumeLayout(false);
             this.PerformLayout();
 
