@@ -8,10 +8,20 @@ namespace Testing_Program2
 {
     class Program
     {
+        public static void PrintNumbers(int n)
+        {
+            if (n > 0)
+            {
+                Console.Write(n + " ");
+                PrintNumbers(n - 1);
+                Console.Write(n + " ");
+            }
+        }
+
         static void Main(string[] args)
         {
-            string myString = "Hello, World!";
-            Console.WriteLine(myString.Length);
+            int num = 10;
+            PrintNumbers(num);
         }
     }
 }
