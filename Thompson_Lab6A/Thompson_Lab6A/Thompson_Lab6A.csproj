@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2036A7D4-25FC-478E-ABF0-37F64708DE3A}</ProjectGuid>
+    <ProjectGuid>{7D3AEAA7-617D-4E94-A80F-BBD52B76F7DF}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Testing_Program3</RootNamespace>
-    <AssemblyName>Testing_Program3</AssemblyName>
+    <RootNamespace>Thompson_Lab6A</RootNamespace>
+    <AssemblyName>Thompson_Lab6A</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,7 +45,7 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SinglyLinkedList.cs" />
+    <Compile Include="TimeFormatException.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

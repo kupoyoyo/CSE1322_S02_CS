@@ -10,11 +10,7 @@ namespace Testing_Program3
     {
         static void Main(string[] args)
         {
-            string oop = "I like Object-Oriented Programming";
-            Console.WriteLine(oop.Substring(7, 14));
-
-            string s = "Object Orientation";
-            s = s + s.Length();
+            
         }
     }
 }
